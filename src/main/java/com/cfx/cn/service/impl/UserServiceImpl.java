@@ -16,7 +16,7 @@ import java.util.Map;
 import javax.jws.WebService;
 
 
-@WebService(targetNamespace="http://service.demo.paybay.cn/",endpointInterface = "com.cfx.cn.service.UserService")
+@WebService(targetNamespace="http://service.cn.cfx.com/",endpointInterface = "com.cfx.cn.service.UserService")
 public class UserServiceImpl implements UserService {
 
     private Map<String, User> userMap = new HashMap<String, User>();
